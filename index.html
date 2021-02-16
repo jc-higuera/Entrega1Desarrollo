@@ -1,3 +1,6 @@
+<!--El código es bastante legible, y los estilos consistentes, sin embargo, la navegación puede ser un poco más intuitiva.-->
+<!-- Hace falta la etiqueta !DOCTYPE -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,6 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <!--No es muy clara la navegación, "More info" debería decir "Hobbies"-->
                 <div class="navbar-nav">
                   <a class="nav-link" href="#About">About me</a>
                   <a class="nav-link" href="#hobbies">More Info</a>
@@ -60,6 +64,7 @@
                 </div>
             </div>
         </div>
+        <!--En esta sección se rompe lo responsive, el video de la derecha se monta sobre el de la izquierda y los dos no son del mismo tamaño.-->
         <div class="cardos container-fluid" id="hobbies">
             <div class="card">
                 <div class="card-body">
@@ -68,12 +73,14 @@
                         <div class="col-md-6">                      
                             <p>In my freetime I like to play videogames</p>
                             <p>My favourite game is Monster Hunter, in which I try to speedrun some monsters</p>
+                            <!--Las dimensiones del video deberían ir en el archivo .css-->
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/S0236X6zCB4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div class="col-md-6">
                             <p>I also like to create programs, and the best way to test my skills is by entering game jams.
                             I sometimes do my own stuff, but that is far from being complete
                             </p>
+                            <!--Las dimensiones del video deberían ir en el archivo .css-->
                             <iframe width="560" height="315" src="https://res.cloudinary.com/dppvsoi3y/video/upload/v1613272589/Entrega1/2021-01-24_21-43-35_wsl0b0.mp4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
